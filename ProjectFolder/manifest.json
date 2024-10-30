@@ -1,0 +1,25 @@
+{
+    "manifest_version": 3,
+    "name": "Wellbeing+",
+    "version": "1.0",
+    "description": "Improving eye health and well-being during screen time.",
+    "permissions": ["activeTab", "scripting", "storage", "tabs", "notifications"],
+    "action": {
+        "default_popup": "popup/popup.html",
+        "default_icon": "images/icon.png"
+    },
+    "background": {
+        "service_worker": "background.js"
+    },
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "js": ["content.js"]
+        }
+    ],
+    "icons": {
+        "16": "images/icon.png",
+        "48": "images/icon.png",
+        "128": "images/icon.png"
+    }
+}
