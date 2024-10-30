@@ -3,6 +3,7 @@
 ## Project Structure
 After cloning the repository, the structure should look like this:
 
+```
 WellbeingPlus/
 ├── images/
 │   └── icon.jpeg
@@ -16,7 +17,7 @@ WellbeingPlus/
 ├── background.js
 ├── content.js
 └── manifest.json
-
+```
 
 ## Running the Flask Server
 1. **Navigate to the server directory**:
