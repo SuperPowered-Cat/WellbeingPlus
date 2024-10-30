@@ -1,2 +1,11 @@
 # WellbeingPlus
-A unique extension with ML functionality for capturing your eye blinks to tell you to blink more as per health guidelines, as well as offering 20/20/20 reminders and custom reminders for a digitally safe workflow.
+
+## Description
+WellbeingPlus is a Chrome extension designed to improve eye health and general well-being during screen time.
+
+## Table of Contents
+- [Usage Instructions](usage.md)
+- [Requirements](requirements.md)
+
+## Getting Started
+Follow the instructions in [Usage Instructions](usage.md) to set up and use the WellbeingPlus extension.
