@@ -4,7 +4,7 @@
 After cloning the repository, the structure should look like this:
 
 ```
-WellbeingPlus/
+ProjectFolder/
 ├── images/
 │   └── icon.jpeg
 ├── popup/
